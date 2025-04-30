@@ -2,9 +2,9 @@ import os
 import requests
 import pandas as pd
 
-BaseUrl = "https://netenrich.opsramp.com/"
-OpsRampSecret = 'c55PPRzMPg3BWp5tXZMwwT8Gzpq6GmUbBwWnAfdhJZjmVHfXB59ZMM5rZY3kA5wf'  # Replace with your OpsRamp Secret
-OpsRampKey = 'cHrCgP3TWVtv3EwMzah3hfjH34eXUHM8'  
+BaseUrl = ""
+OpsRampSecret = ''  # Replace with your OpsRamp Secret
+OpsRampKey = ''  
 
 def get_auth_headers(access_token):
     return {
